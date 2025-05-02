@@ -12,12 +12,6 @@ ENV/
 .venv/
 .Python
 
-# Django stuff
-*.sqlite3
-db.sqlite3
-media/
-staticfiles/
-
 # Migrations
 **/migrations/
 !**/migrations/__init__.py
