@@ -25,18 +25,51 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-4. Run migrations
+4. Add Environment variables
+ ```bash
+DB_USER=db_username
+DB_PASSWORD=password
+DB_HOST=host
+DB_PORT=port
+DB_NAME=db_name
+```
+`Note:` This config uses postgres database, if you want to run localy with sqlite, replace the follwing code in `restaurent/restaurent/settings/py`.
+
+replace:
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
+        'HOST': config('DB_HOST'),
+        'PORT': config('DB_PORT'),
+    }
+}
+```
+with:
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+```
+
+5. Run migrations
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-5. Create superuser (optional for admin)
+6. Create superuser (optional for admin)
 ```bash
 python manage.py createsuperuser
 ```
 
-6. Run the server
+7. Run the server
 ```bash
 python manage.py runserver
 ```
