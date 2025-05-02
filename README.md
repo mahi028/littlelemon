@@ -36,18 +36,18 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-4. Run the server
+6. Run the server
 ```bash
 python manage.py runserver
 ```
 
 Visit http://127.0.0.1:8000/ in your browser.
+or
+Visit [Production Deployment](https://terrible-gretta-mahi028-86e663c6.koyeb.app/)
 
 ## For admin dashboard
 
 Visit http://127.0.0.1:8000/admin in your browser.
-username: `admin`
-password: `admin`
 
 Add Menu items and restaurent Tables there.
 
