@@ -12,7 +12,7 @@ This project is built with Django and demonstrates essential web development fea
 1. Clone the repo
 ```bash
 git clone https://github.com/mahi028/littlelemon.git
-cd little-lemon
+cd littlelemon
 ```
 
 2. Set up virtual environment
