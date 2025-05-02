@@ -12,6 +12,16 @@ ENV/
 .venv/
 .Python
 
+# Django stuff
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Migrations
+**/migrations/
+!**/migrations/__init__.py
+
 # VS Code / IDEs
 .vscode/
 .idea/
@@ -41,6 +51,11 @@ htmlcov/
 # MyPy, Pyright, etc.
 .mypy_cache/
 .pyright/
+
+# Node.js (if using with Django for frontend)
+node_modules/
+dist/
+build/
 
 # Docker
 *.pid

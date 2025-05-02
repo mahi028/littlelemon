@@ -25,6 +25,16 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+4. Run migrations
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+5. Create superuser (optional for admin)
+```bash
+python manage.py createsuperuser
+```
 
 6. Run the server
 ```bash
@@ -33,12 +43,14 @@ python manage.py runserver
 
 Visit http://127.0.0.1:8000/ in your browser.
 
-### For admin dashboard
+## For admin dashboard
 
 Visit http://127.0.0.1:8000/admin in your browser.
 username: `admin`
 password: `admin`
- 
+
+Add Menu items and restaurent Tables there.
+
 ## Tech Stack
 
 Python 3
