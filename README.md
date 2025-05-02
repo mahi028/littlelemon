@@ -46,6 +46,6 @@ Python 3
 Django 5.2
 
 ## 🙏 Acknowledgements
-Huge thanks to freeCodeCamp.org for the comprehensive Django tutorial that inspired this project.
+Huge thanks to [freeCodeCamp.org](https://www.youtube.com/@freecodecamp) for the comprehensive Django tutorial that inspired this project.
 
 Django documentation: https://docs.djangoproject.com
