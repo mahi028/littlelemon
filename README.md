@@ -26,7 +26,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-6. Run the server
+4. Run the server
 ```bash
 python manage.py runserver
 ```
