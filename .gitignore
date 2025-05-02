@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.Python
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# Migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Bytecode & logs
+*.log
+*.pot
+*.pyc
+*.mo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test output
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Environment vars
+.env
+.env.*
+
+# MyPy, Pyright, etc.
+.mypy_cache/
+.pyright/
+
+# Node.js (if using with Django for frontend)
+node_modules/
+dist/
+build/
+
+# Docker
+*.pid
+*.tar
+*.bak
+
+# Others
+*.swp
+*.bak
+*.tmp

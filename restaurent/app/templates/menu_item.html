@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<h1>{{ item.name }}</h1>
+<p>
+<strong>Description:</strong> {{ item.description }} <br>
+<strong>Ingredients:</strong> {{ item.ingredients }} <br>
+<strong>Price:</strong> &#8377;{{ item.price }} <br>
+<strong>Time to make:</strong> {{ item.time_taken }}
+</p>
+<hr>
+{% endblock %}
