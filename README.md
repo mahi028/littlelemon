@@ -4,17 +4,7 @@ A Django web application for a fictional restaurant **Little Lemon**, allowing c
 
 This project is built with Django and demonstrates essential web development features including form handling, model relationships, template rendering, and dynamic UI with Django's built-in tools.
 
-> 🎥 *Inspired by the YouTube tutorial from [freeCodeCamp.org](https://www.youtube.com/watch?v=0roB7wZMLqI): [Django Full Course - Beginner to Advanced]*
-
----
-
-## ✨ Features
-
-- View available tables with details (number, capacity, position)
-- Book tables using an online form
-- Automatically mark booked tables as unavailable
-- Admin interface for managing bookings and tables
-- Success/error alerts using Django messages framework
+> 🎥 *Inspired by the YouTube tutorial from [freeCodeCamp.org](https://www.youtube.com/watch?v=0roB7wZMLqI): [Django Crash Course - Python Web Framewrok]*
 
 ---
 
@@ -54,3 +44,8 @@ password: `admin`
 Python 3
 
 Django 5.2
+
+## 🙏 Acknowledgements
+Huge thanks to freeCodeCamp.org for the comprehensive Django tutorial that inspired this project.
+
+Django documentation: https://docs.djangoproject.com
