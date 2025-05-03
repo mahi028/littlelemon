@@ -33,7 +33,7 @@ DB_HOST=host
 DB_PORT=port
 DB_NAME=db_name
 ```
-`Note:` This config uses postgres database, if you want to run localy with sqlite, replace the follwing code in `restaurent/restaurent/settings/py`.
+`Note:` This config uses postgres database. If you want to run localy with sqlite, replace the follwing code in `restaurent/restaurent/settings.py`.
 
 replace:
 ```python
