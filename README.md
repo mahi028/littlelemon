@@ -75,8 +75,6 @@ python manage.py runserver
 ```
 
 Visit http://127.0.0.1:8000/ in your browser.
-or
-Visit [Production Deployment](https://terrible-gretta-mahi028-86e663c6.koyeb.app/)
 
 ## For admin dashboard
 
